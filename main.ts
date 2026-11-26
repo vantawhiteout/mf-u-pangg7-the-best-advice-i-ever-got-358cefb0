@@ -1,6 +1,6 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const entry: string = `My mother found the college brochure I'd hidden and told me, "You can't want something and be embarrassed to want it."`;
+const entry = "The night guard where I worked the desk watched me apologize twice to a guest given store credit for his deposit and said, 'The second sorry is for you, not him.'";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", entry, "utf8");
